@@ -1,0 +1,82 @@
+/* Import Google Fonts */
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+  }
+  
+  @font-face {
+    font-family: 'Work Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap');
+  }
+  
+  @font-face {
+    font-family: 'Merriweather';
+    src: url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,400&display=swap');
+  }
+  
+  @font-face {
+    font-family: 'Croissant One';
+    src: url('fonts/CroissantOne-Regular.ttf') format('truetype');
+  }
+  
+  /* General Typography */
+  html {
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 680px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+  /* Header */
+  .header {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Banner */
+  .banner h2 {
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-weight: 500;
+  }
+  
+  .banner h1 {
+    font-family: 'Abril Fatface', sans-serif;
+    font-weight: 900;
+  }
+  
+  /* Journal */
+  .journal {
+    font-family: 'Work Sans', serif;
+  }
+  
+  .journal p {
+    line-height: 1.4;
+  }
+  
+  .journal .first-letter {
+    line-height: 0.87;
+  }
+  
+  .photo .caption {
+    font-family: 'Merriweather', serif;
+  }
+  
+  /* Quote */
+  .quote {
+    line-height: 1.2;
+  }
+  
+  /* Footer */
+  footer {
+    font-family: 'Croissant One', 'Merriweather', serif;
+    line-height: 1.5;
+  }
